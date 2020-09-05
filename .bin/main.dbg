@@ -1,0 +1,35 @@
+<C64debugger version="1.0">
+   <Sources values="INDEX,FILE">
+      0,KickAss.jar:/include/autoinclude.asm
+      1,E:\Assembly DEV\ASM coding\basic to assembly\main.asm
+      2,E:\Assembly DEV\ASM coding\basic to assembly\constants.asm
+   </Sources>
+
+   <Segment name="Default" dest="" values="START,END,FILE_IDX,LINE1,COL1,LINE2,COL2">
+      <Block name="startingadd">
+         $c100,$c102,1,8,13,8,15
+         $c103,$c104,1,10,13,10,15
+         $c105,$c107,1,11,13,11,15
+         $c108,$c10a,1,12,5,12,7
+         $c10b,$c10c,1,13,13,13,15
+         $c10d,$c10e,1,14,13,14,15
+         $c10f,$c110,1,15,13,15,15
+         $c111,$c113,1,16,5,16,7
+         $c114,$c115,1,17,13,17,15
+         $c116,$c116,1,18,13,18,15
+         $c117,$c118,1,19,13,19,15
+         $c119,$c11b,1,20,5,20,7
+         $c11c,$c11c,1,22,13,22,15
+      </Block>
+   </Segment>
+
+   <Labels values="SEGMENT,ADDRESS,NAME,START,END,FILE_IDX,LINE1,COL1,LINE2,COL2">
+   </Labels>
+
+   <Breakpoints values="SEGMENT,ADDRESS,ARGUMENT">
+   </Breakpoints>
+
+   <Watchpoints values="SEGMENT,ADDRESS1,ADDRESS2,ARGUMENT">
+   </Watchpoints>
+
+</C64debugger>
