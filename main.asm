@@ -10,7 +10,7 @@
             lda #$93
             jmp CHROUT
     jsr CLEAR
-            ldx #40
+            ldx #120
             stx AUX
             lda 'c'
     jsr CHROUT
